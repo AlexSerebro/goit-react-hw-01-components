@@ -8,7 +8,12 @@ export default function FriendList({ friends }) {
           <span
             style={{ backgroundColor: friend.isOnline ? "green" : "red" }}
           ></span>
-          <img className="avatar" src={friend.avatar} width="50" />
+          <img
+            className="avatar"
+            src={friend.avatar}
+            alt="some text"
+            width="50"
+          />
           <span className="name">{friend.name}</span>
         </li>
       ))}
