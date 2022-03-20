@@ -14,6 +14,13 @@ code {
     monospace;
 }
 
-li {
-  list-style-type: none;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;
 }
