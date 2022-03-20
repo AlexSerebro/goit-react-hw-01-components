@@ -1,0 +1,12 @@
+.history {
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.th {
+  padding: 5px 20px;
+  border: 1px solid black;
+  background-color: aqua;
+}

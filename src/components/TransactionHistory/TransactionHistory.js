@@ -1,15 +1,16 @@
 import PropTypes from "prop-types";
 import HistoryItem from "../HistoryItem/HistoryItem";
+import s from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ items }) {
   // const { id, type, amount, currency } = transaction;
   return (
-    <table className="transaction-history">
+    <table className={s.history}>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={s.th}>Type</th>
+          <th className={s.th}>Amount</th>
+          <th className={s.th}>Currency</th>
         </tr>
       </thead>
 
