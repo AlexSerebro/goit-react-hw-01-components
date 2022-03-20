@@ -39,13 +39,3 @@ Profile.propTypes = {
   views: PropTypes.number.isRequired,
   likes: PropTypes.number.isRequired,
 };
-
-{
-  /* <Profile
-  username={user.username}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}
-/> */
-}
